@@ -22,7 +22,7 @@ export default function Home() {
     <ThemeProvider>
       <SmoothScroll />
       <CustomCursor />
-      <div className="relative min-h-screen bg-background text-foreground transition-colors duration-300">
+      <div className="relative overflow-hidden min-h-screen bg-background text-foreground transition-colors duration-300">
         <Nav />
         <main>
           <Hero />

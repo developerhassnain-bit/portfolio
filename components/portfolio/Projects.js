@@ -24,7 +24,7 @@ export function Projects() {
       <div className="absolute top-1/3 left-10 size-[500px] rounded-full bg-neon-cyan/5 blur-[130px] pointer-events-none" />
       <div className="absolute bottom-1/3 right-10 size-[500px] rounded-full bg-neon-pink/5 blur-[130px] pointer-events-none" />
       <div className="mx-auto max-w-7xl">
-        <div className="mb-20 flex flex-col items-end justify-between gap-6 md:flex-row">
+        <div className="mb-20 flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
             <div className="mb-4 text-xs font-bold uppercase tracking-widest text-neon-cyan">// Selected Works</div>
             <h2 className="font-display text-4xl font-bold leading-none tracking-tighter md:text-7xl">
@@ -45,7 +45,7 @@ export function Projects() {
               href="#contact"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-20px" }}
               transition={{ duration: 0.6, delay: (i % 2) * 0.15 }}
               className={`group relative block ${i % 2 === 1 ? "md:mt-24" : ""}`}
               data-cursor="hover"

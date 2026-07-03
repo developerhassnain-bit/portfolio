@@ -33,7 +33,7 @@ export function AnimatedHeading({
       variants={containerVar}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, margin: "-100px" }}
+      viewport={{ once: true, margin: "-20px" }}
       className={`inline-block ${className}`}
     >
       {words.map((word, wordIdx) => {
